@@ -1,0 +1,36 @@
+.pbe-gallery-preview {
+	padding: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background: #f9f9f9;
+}
+
+.pbe-gallery-grid {
+	display: grid;
+	gap: 1rem;
+}
+
+.pbe-gallery-item {
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	overflow: hidden;
+	border-radius: 4px;
+	background: #e0e0e0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pbe-gallery-item::before {
+	content: "📷";
+	font-size: 2rem;
+	opacity: 0.5;
+}
+
+.pbe-gallery-empty {
+	text-align: center;
+	padding: 2rem;
+	color: #666;
+}
+

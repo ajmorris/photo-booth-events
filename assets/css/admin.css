@@ -1,0 +1,32 @@
+.pbe-media-picker {
+	margin: 10px 0;
+}
+
+.pbe-frame-preview {
+	margin: 10px 0;
+}
+
+.pbe-frame-preview img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.pbe-status {
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.pbe-status-approved {
+	background: #46b450;
+	color: #fff;
+}
+
+.pbe-status-pending {
+	background: #ffb900;
+	color: #000;
+}
+
+

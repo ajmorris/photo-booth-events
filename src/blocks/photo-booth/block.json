@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "virtual-photo-booth/photo-booth",
+	"title": "Photo Booth",
+	"category": "media",
+	"icon": "camera",
+	"description": "Display a virtual photo booth interface with camera capture and frame overlay.",
+	"keywords": [ "photo", "booth", "camera", "capture" ],
+	"textdomain": "virtual-photo-booth",
+	"attributes": {
+		"eventId": {
+			"type": "integer",
+			"default": 0
+		},
+		"frameId": {
+			"type": "integer",
+			"default": 0
+		},
+		"showGalleryLink": {
+			"type": "boolean",
+			"default": true
+		},
+		"containerClass": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css"
+}
+
+
