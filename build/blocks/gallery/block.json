@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "virtual-photo-booth/gallery",
+  "title": "Photo Booth Gallery",
+  "category": "media",
+  "icon": "images-alt2",
+  "description": "Display a gallery of approved photos from photo booth events.",
+  "keywords": [
+    "gallery",
+    "photo",
+    "booth",
+    "images"
+  ],
+  "textdomain": "virtual-photo-booth",
+  "attributes": {
+    "eventId": {
+      "type": "integer",
+      "default": 0
+    },
+    "columns": {
+      "type": "integer",
+      "default": 3
+    },
+    "limit": {
+      "type": "integer",
+      "default": 20
+    },
+    "order": {
+      "type": "string",
+      "default": "DESC"
+    },
+    "containerClass": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}
